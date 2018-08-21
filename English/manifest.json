@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Chunppo English Words Notifications",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "version": "1.0",
+  "permissions": [
+    "notifications",
+    "alarms",
+    "https://www/google.com"
+  ]
+}
